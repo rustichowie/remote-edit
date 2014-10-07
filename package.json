@@ -1,0 +1,51 @@
+{
+  "name": "remote-edit",
+  "main": "./lib/main.coffee",
+  "version": "1.4.9",
+  "description": "Browse and edit remote files using SFTP and FTP",
+  "homepage": "https://github.com/sveale/remote-edit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sveale/remote-edit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sveale/remote-edit/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sverre Aleksandersen",
+    "email": "sverre.aleksandersen@gmail.com"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "ftp": ">=0.3.7",
+    "async": ">=0.9.0",
+    "file-size": ">=0.0.5",
+    "moment": ">=2.7.0",
+    "ssh2": ">=0.3.3",
+    "serializable": ">=1.0.0",
+    "emissary": ">=1.2.1",
+    "atom-message-panel": ">=1.1.1",
+    "string-hash": ">=1.1.0",
+    "osenv": ">=0.1.0",
+    "underscore-plus": ">=1.5.0",
+    "fs-plus": ">=2.2.3",
+    "q": ">=1.0.1"
+  },
+  "devDependencies": {
+    "temp": "*"
+  },
+  "keywords": [
+    "atom",
+    "package",
+    "sftp",
+    "ssh",
+    "scp",
+    "ftp",
+    "remote",
+    "edit",
+    "sync"
+  ]
+}
